@@ -92,19 +92,23 @@ ul li strong	{
 }
 
 #services .mast	{
-    background: url("../images/microphone.jpg");
+    /* background: url("../images/microphone.jpg"); */
+    background: url("../images/canoe.png");
 }
 
 #bookings .mast	{
-    background: url("../images/canoe.jpg");
+    /* background: url("../images/canoe.jpg"); */
+    background: url("../images/canoe.png");
 }
 
 #contact .mast	{
-    background: url("../images/iphone2.jpg");
+    /* background: url("../images/iphone2.jpg"); */
+    background: url("../images/canoe.png");
 }
 
 #the_president .mast	{
-    background: url("../images/the_president.jpg");
+    /* background: url("../images/the_president.jpg"); */
+    background: url("../images/canoe.png");
 }
 
 .mast	{
@@ -130,7 +134,7 @@ ul li strong	{
     color: #fff;
     padding: 3px 5px;
     margin: 0;
-    font-size: 8.3pt;
+    font-size: 80%;
     display: none;
 }
 
