@@ -1,0 +1,166 @@
+@import "reset.css";
+@import "text.css";
+@import "960.css";
+
+body	{
+    background: #eee;
+    font-family: segoe ui, sans-serif;
+    font-size: 71%;
+    padding-top: 10px;
+    color: #333;
+}
+h6  {
+    font-family: Trebuchet MS, sans-serif;
+    margin-bottom: 10px;
+    border-bottom: dotted 1px #000;
+    color: #72a91b;
+}
+p   {
+    margin-bottom: 10px;
+}
+.highlight  {
+    padding: 6px 0 1px 10px;
+    background-color: #72a91b;
+}
+.highlight p	{
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 125%;
+    color: #fff;
+}
+ul  {
+    margin: 10px 0;
+}
+a   {
+    text-decoration: none;
+    color: #000;
+    border-bottom: dotted 1px #000;
+}
+#nav	{
+    list-style: none;
+    padding: 0;
+}
+#nav li	{
+    margin: 0;
+}
+#nav li	a   {
+    display: block;
+    line-height: 2em;
+    margin-bottom: 2px;
+    padding-left: 5px;
+    background: #eee;
+    color: #000;
+    border-bottom: none;
+}
+#nav li a.selected  {
+    background: #fff;
+    border-bottom: dotted 1px #000;
+}
+#nav li a:hover	{
+    background: #fff;
+}
+ul li strong	{
+    color: #72a91b;
+}
+#logo	{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#logo a	{
+    border: none;
+}
+#logo, #nav-wrap, #text	{
+    background: #fff;
+}
+.box	{
+    padding: 10px;
+}
+#services .mast	{
+    background: url("../images/microphone.jpg");
+}
+#bookings .mast	{
+    background: url("../images/canoe.jpg");
+}
+#contact .mast	{
+    background: url("../images/iphone2.jpg");
+}
+#the_president .mast	{
+    background: url("../images/the_president.jpg");
+}
+.mast	{
+    height: 124px;
+    margin-bottom: 10px;
+}
+.mast .quote_container	{
+    width: 285px;
+    height: 75px;
+    position: absolute;
+    top: 40px;
+    right: 9px;
+    background-image: url("../images/bg-trans-dark.png");
+}
+.mast .left	{
+    left: 9px;
+}
+.mast p	{
+    color: #fff;
+    padding: 3px 5px;
+    margin: 0;
+    font-size: 8.3pt;
+    display: none;
+}
+.mast p span	{
+    font-weight: bold;
+}
+p.other_services    {
+    font-weight: bold;
+}
+#text	{
+    min-height: 247px;
+}
+.pic_frame {
+    padding: 10px;
+    background: #eee;
+    margin: 0 10px 0 0;
+    float: left;
+}
+#profile .box	{
+    padding-right: 0;
+}
+#photos h6  {
+    margin-top: 10px;
+}
+ul.gallery {
+    list-style: none;
+    line-height: 0;
+    background-color: #eee;
+    padding: 7px 7px 0 7px;
+}
+ul.gallery li {
+    display: inline;
+    margin: 0;
+}
+ul.gallery li a	{
+    border: none;
+}
+ul.gallery li a img {
+    width: 40px;
+    height: 40px;
+    border: solid 3px #fff;
+    margin-right: 2px;
+    margin-bottom: 7px;
+}
+ul.gallery li a:hover img   {
+    border: solid 3px #a7d460;
+}
+#footer	{
+    background-color: #72a91b;
+    margin-top: 10px;
+    color: #fff;
+    padding: 5px;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+address	{
+    font-size: 1.05em;
+}
