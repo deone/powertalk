@@ -136,6 +136,7 @@ ul li strong	{
     margin: 0;
     font-size: 80%;
     display: none;
+    position: absolute;
 }
 
 .mast p span	{
