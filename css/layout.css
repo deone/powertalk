@@ -4,7 +4,6 @@
 
 body	{
     font-family: 'Fauna One', serif;
-    padding-top: 10px;
     line-height: 1.8em;
     color: #333;
 }
@@ -92,29 +91,24 @@ ul li strong	{
 }
 
 #services .mast	{
-    /* background: url("../images/microphone.jpg"); */
-    background: url("../images/canoe.png");
+    background: url("../images/mic.jpg");
 }
 
 #bookings .mast	{
-    /* background: url("../images/canoe.jpg"); */
     background: url("../images/canoe.png");
 }
 
 #contact .mast	{
-    /* background: url("../images/iphone2.jpg"); */
-    background: url("../images/canoe.png");
+    background: url("../images/phone.jpg") no-repeat;
 }
 
 #the_president .mast	{
-    /* background: url("../images/the_president.jpg"); */
-    background: url("../images/canoe.png");
+    background: url("../images/the_president.jpg") no-repeat;
 }
 
 .mast	{
     height: 186px;
     margin-bottom: 10px;
-    background: #ff0;
 }
 
 .mast .quote_container	{
