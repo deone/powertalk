@@ -14,7 +14,8 @@ def deploy():
 
     local("echo 'Deploying site...'")
     with cd("webapps/powertalk"):
-      run("unzip -o ~/powertalk.zip")
+      run("rm -rf *")
+      run("unzip ~/powertalk.zip")
   except Exception:
     print_exc()
   finally:
