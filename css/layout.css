@@ -208,3 +208,18 @@ ul.gallery li a:hover img   {
 address	{
     font-size: 1.05em;
 }
+
+.social {
+  list-style: none;
+}
+
+.social li  {
+  float: left;
+  margin: 0;
+  margin-right: 4px;
+}
+
+.social li a img  {
+  width: 40px;
+  height: 40px;
+}
