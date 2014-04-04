@@ -3,13 +3,14 @@
 @import "960.css";
 
 body	{
-    font-family: 'Fauna One', serif;
+    /* font-family: 'Fauna One', serif; */
+    font-family: 'Karla', serif;
     line-height: 1.8em;
     color: #333;
 }
 
 h6  {
-    font-family: 'Artifika', serif;
+    font-family: 'Montserrat', serif;
     margin-bottom: 10px;
     border-bottom: double 3px #eee;
     color: #72a91b;
@@ -24,7 +25,8 @@ p   {
 }
 
 .highlight p	{
-    font-family: 'Artifika', serif;
+    /* font-family: 'Artifika', serif; */
+    font-family: 'Montserrat', serif;
     margin-left: 5px;
     margin-right: 5px;
     font-size: 110%;
@@ -42,7 +44,6 @@ ul.rules  {
 a   {
     text-decoration: none;
     color: #000;
-    border-bottom: dotted 1px #000;
 }
 
 #nav	{
@@ -185,8 +186,6 @@ ul.gallery li a	{
 }
 
 ul.gallery li a img {
-    width: 40px;
-    height: 40px;
     border: solid 3px #fff;
     margin-right: 2px;
     margin-bottom: 7px;
