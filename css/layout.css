@@ -110,6 +110,10 @@ ul li strong	{
     background: url("../images/the_president.jpg") no-repeat;
 }
 
+#gallery .mast  {
+    background: url("../images/water.jpg") no-repeat;
+}
+
 .mast	{
     height: 186px;
     margin-bottom: 10px;

@@ -12,7 +12,7 @@
 	<link rel="shortcut icon" href="images/favicon.ico"/>
 	<link href='http://fonts.googleapis.com/css?family=Artifika|Fauna+One' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/layout.css"/>
-	<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen"/>
     </head>
     <body id="the_president">
 	<div id="wrapper" class="container_16">
@@ -28,6 +28,7 @@
 			    <li><a href="index.html">Home</a></li>
 			    <li><a href="services.html">Services</a></li>
 			    <li><a class="selected" href="the_president.html">The President</a></li>
+			    <li><a href="gallery.html">Gallery</a></li>
 			    <li><a href="bookings.html">Bookings</a></li>
 			    <li><a href="contact.html">Contact</a></li>
 			</ul>
@@ -99,18 +100,18 @@
 		    <div id="photos" class="grid_4 alpha">
 			<h6>Gallery</h6>
 			<ul class="gallery">
-			    <li><a href="images/pics/pic1.jpg"><img src="images/pics/thumb1.jpg"/></a></li>
-			    <li><a href="images/pics/pic1.jpg"><img src="images/pics/thumb1.jpg"/></a></li>
-			    <li><a href="images/pics/pic1.jpg"><img src="images/pics/thumb1.jpg"/></a></li>
-			    <li><a href="images/pics/pic1.jpg"><img src="images/pics/thumb1.jpg"/></a></li>
-			    <li><a href="images/pics/pic1.jpg"><img src="images/pics/thumb1.jpg"/></a></li>
-			    <li><a href="images/pics/pic1.jpg"><img src="images/pics/thumb1.jpg"/></a></li>
-			    <li><a href="images/pics/pic1.jpg"><img src="images/pics/thumb1.jpg"/></a></li>
-			    <li><a href="images/pics/pic1.jpg"><img src="images/pics/thumb1.jpg"/></a></li>
-			    <li><a href="images/pics/pic1.jpg"><img src="images/pics/thumb1.jpg"/></a></li>
-			    <li><a href="images/pics/pic1.jpg"><img src="images/pics/thumb1.jpg"/></a></li>
-			    <li><a href="images/pics/pic1.jpg"><img src="images/pics/thumb1.jpg"/></a></li>
-			    <li><a href="images/pics/pic1.jpg"><img src="images/pics/thumb1.jpg"/></a></li>
+			    <li><a href="images/pics/pic1.jpg" data-lightbox="gallery"><img src="images/pics/thumb1.jpg"></a></li>
+			    <li><a href="images/pics/pic1.jpg" data-lightbox="gallery"><img src="images/pics/thumb1.jpg"/></a></li>
+			    <li><a href="images/pics/pic1.jpg" data-lightbox="gallery"><img src="images/pics/thumb1.jpg"/></a></li>
+			    <li><a href="images/pics/pic1.jpg" data-lightbox="gallery"><img src="images/pics/thumb1.jpg"/></a></li>
+			    <li><a href="images/pics/pic1.jpg" data-lightbox="gallery"><img src="images/pics/thumb1.jpg"/></a></li>
+			    <li><a href="images/pics/pic1.jpg" data-lightbox="gallery"><img src="images/pics/thumb1.jpg"/></a></li>
+			    <li><a href="images/pics/pic1.jpg" data-lightbox="gallery"><img src="images/pics/thumb1.jpg"/></a></li>
+			    <li><a href="images/pics/pic1.jpg" data-lightbox="gallery"><img src="images/pics/thumb1.jpg"/></a></li>
+			    <li><a href="images/pics/pic1.jpg" data-lightbox="gallery"><img src="images/pics/thumb1.jpg"/></a></li>
+			    <li><a href="images/pics/pic1.jpg" data-lightbox="gallery"><img src="images/pics/thumb1.jpg"/></a></li>
+			    <li><a href="images/pics/pic1.jpg" data-lightbox="gallery"><img src="images/pics/thumb1.jpg"/></a></li>
+			    <li><a href="images/pics/pic1.jpg" data-lightbox="gallery"><img src="images/pics/thumb1.jpg"/></a></li>
 			</ul>
 		    </div>
 		    <div class="clear"></div>
@@ -120,13 +121,8 @@
 	    </div>
 	    <div class="clear"></div>
 	</div>
-	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-	<script type="text/javascript" src="js/jquery.lightbox-0.5.pack.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/lightbox.min.js"></script>
 	<script type="text/javascript" src="js/quotefader.js"></script>
-	<script type="text/javascript">
-	    $(function()    {
-		    $(".gallery a").lightBox();
-	    });
-	</script>
     </body>
 </html>
