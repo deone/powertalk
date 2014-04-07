@@ -2,7 +2,7 @@ from fabric.api import *
 from traceback import print_exc
 
 def archive():
-  local("zip -r powertalk css js images *.html")
+  local("zip -r powertalk css js images img *.html")
 
 @task
 @hosts('deone@deone.webfactional.com')
