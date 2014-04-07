@@ -3,14 +3,13 @@
 @import "960.css";
 
 body	{
-    /* font-family: 'Fauna One', serif; */
-    font-family: 'Karla', serif;
+    font-family: 'Fauna One', serif;
     line-height: 1.8em;
     color: #333;
 }
 
 h6  {
-    font-family: 'Montserrat', serif;
+    font-family: 'Artifika', serif;
     margin-bottom: 10px;
     border-bottom: double 3px #eee;
     color: #72a91b;
@@ -25,8 +24,7 @@ p   {
 }
 
 .highlight p	{
-    /* font-family: 'Artifika', serif; */
-    font-family: 'Montserrat', serif;
+    font-family: 'Artifika', serif;
     margin-left: 5px;
     margin-right: 5px;
     font-size: 110%;
